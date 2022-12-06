@@ -9,6 +9,8 @@ import SwiftUI
 
 struct Home: View {
     @State var selectedIndex = 0
+    @State var showCreateShort = false
+    @State var text = ""
     var body: some View {
         VStack{
             ZStack{
@@ -57,7 +59,7 @@ struct Home: View {
                     HStack{
                         Spacer()
                         Button {
-                            
+                            self.showCreateShort.toggle()
                         } label: {
                             Image(systemName: "pencil")
                                 .frame(width: 20, height: 20)
@@ -69,6 +71,9 @@ struct Home: View {
                     }.padding()
                 }.padding(.bottom, 65)
                 
+            }
+            .sheet(isPresented: $showCreateShort) {
+                CreateShortView(text: self.text)
             }
         }
     }

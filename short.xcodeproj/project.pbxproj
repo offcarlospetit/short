@@ -16,6 +16,8 @@
 		BA782BF1293EE36E009C80D0 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BF0293EE36E009C80D0 /* Search.swift */; };
 		BA782BF3293EE384009C80D0 /* Notificaations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BF2293EE384009C80D0 /* Notificaations.swift */; };
 		BA782BF5293EE392009C80D0 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BF4293EE392009C80D0 /* Messages.swift */; };
+		BA782BF7293EEDEF009C80D0 /* CreateShortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BF6293EEDEF009C80D0 /* CreateShortView.swift */; };
+		BA782BF9293EEFE0009C80D0 /* MultiLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BF8293EEFE0009C80D0 /* MultiLineTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		BA782BF0293EE36E009C80D0 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		BA782BF2293EE384009C80D0 /* Notificaations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notificaations.swift; sourceTree = "<group>"; };
 		BA782BF4293EE392009C80D0 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		BA782BF6293EEDEF009C80D0 /* CreateShortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateShortView.swift; sourceTree = "<group>"; };
+		BA782BF8293EEFE0009C80D0 /* MultiLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLineTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 		BA782BE4293E512A009C80D0 /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				BA782BF8293EEFE0009C80D0 /* MultiLineTextField.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 		BA782BE5293E5137009C80D0 /* Post */ = {
 			isa = PBXGroup;
 			children = (
+				BA782BF6293EEDEF009C80D0 /* CreateShortView.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -268,9 +274,11 @@
 				BA782BEF293EE35D009C80D0 /* Feed.swift in Sources */,
 				BA782BF1293EE36E009C80D0 /* Search.swift in Sources */,
 				BA782BF5293EE392009C80D0 /* Messages.swift in Sources */,
+				BA782BF9293EEFE0009C80D0 /* MultiLineTextField.swift in Sources */,
 				BA782BED293E5253009C80D0 /* Home.swift in Sources */,
 				BA782BF3293EE384009C80D0 /* Notificaations.swift in Sources */,
 				BA782BD1293E4F88009C80D0 /* shortApp.swift in Sources */,
+				BA782BF7293EEDEF009C80D0 /* CreateShortView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

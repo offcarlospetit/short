@@ -11,6 +11,11 @@
 		BA782BD3293E4F88009C80D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BD2293E4F88009C80D0 /* ContentView.swift */; };
 		BA782BD5293E4F8D009C80D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA782BD4293E4F8D009C80D0 /* Assets.xcassets */; };
 		BA782BD8293E4F8D009C80D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA782BD7293E4F8D009C80D0 /* Preview Assets.xcassets */; };
+		BA782BED293E5253009C80D0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BEC293E5253009C80D0 /* Home.swift */; };
+		BA782BEF293EE35D009C80D0 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BEE293EE35C009C80D0 /* Feed.swift */; };
+		BA782BF1293EE36E009C80D0 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BF0293EE36E009C80D0 /* Search.swift */; };
+		BA782BF3293EE384009C80D0 /* Notificaations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BF2293EE384009C80D0 /* Notificaations.swift */; };
+		BA782BF5293EE392009C80D0 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BF4293EE392009C80D0 /* Messages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		BA782BD2293E4F88009C80D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA782BD4293E4F8D009C80D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA782BD7293E4F8D009C80D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA782BEC293E5253009C80D0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BA782BEE293EE35C009C80D0 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		BA782BF0293EE36E009C80D0 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		BA782BF2293EE384009C80D0 /* Notificaations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notificaations.swift; sourceTree = "<group>"; };
+		BA782BF4293EE392009C80D0 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,11 @@
 		BA782BCF293E4F88009C80D0 /* short */ = {
 			isa = PBXGroup;
 			children = (
+				BA782BE1293E507E009C80D0 /* Extensions */,
+				BA782BE2293E50A4009C80D0 /* Services */,
+				BA782BE0293E506F009C80D0 /* Model */,
+				BA782BDF293E505F009C80D0 /* ViewModel */,
+				BA782BDE293E5055009C80D0 /* Views */,
 				BA782BD0293E4F88009C80D0 /* shortApp.swift */,
 				BA782BD2293E4F88009C80D0 /* ContentView.swift */,
 				BA782BD4293E4F8D009C80D0 /* Assets.xcassets */,
@@ -65,6 +80,118 @@
 				BA782BD7293E4F8D009C80D0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA782BDE293E5055009C80D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA782BEB293E51A5009C80D0 /* Main */,
+				BA782BEA293E519B009C80D0 /* Feed */,
+				BA782BE9293E5190009C80D0 /* Search */,
+				BA782BE8293E5180009C80D0 /* Notifications */,
+				BA782BE7293E5162009C80D0 /* Messages */,
+				BA782BE6293E5143009C80D0 /* Authentication */,
+				BA782BE5293E5137009C80D0 /* Post */,
+				BA782BE4293E512A009C80D0 /* Items */,
+				BA782BE3293E511E009C80D0 /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA782BDF293E505F009C80D0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA782BE0293E506F009C80D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA782BE1293E507E009C80D0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BA782BE2293E50A4009C80D0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BA782BE3293E511E009C80D0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BA782BE4293E512A009C80D0 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		BA782BE5293E5137009C80D0 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		BA782BE6293E5143009C80D0 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BA782BE7293E5162009C80D0 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				BA782BF4293EE392009C80D0 /* Messages.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		BA782BE8293E5180009C80D0 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				BA782BF2293EE384009C80D0 /* Notificaations.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		BA782BE9293E5190009C80D0 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				BA782BF0293EE36E009C80D0 /* Search.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		BA782BEA293E519B009C80D0 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				BA782BEE293EE35C009C80D0 /* Feed.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		BA782BEB293E51A5009C80D0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BA782BEC293E5253009C80D0 /* Home.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA782BD3293E4F88009C80D0 /* ContentView.swift in Sources */,
+				BA782BEF293EE35D009C80D0 /* Feed.swift in Sources */,
+				BA782BF1293EE36E009C80D0 /* Search.swift in Sources */,
+				BA782BF5293EE392009C80D0 /* Messages.swift in Sources */,
+				BA782BED293E5253009C80D0 /* Home.swift in Sources */,
+				BA782BF3293EE384009C80D0 /* Notificaations.swift in Sources */,
 				BA782BD1293E4F88009C80D0 /* shortApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

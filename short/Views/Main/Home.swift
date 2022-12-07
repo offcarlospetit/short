@@ -49,8 +49,6 @@ struct Home: View {
                                 .imageScale(.large)
                         }
                 }
-                
-                .padding()
                 .accentColor(Color("BackGround"))
                 
                 

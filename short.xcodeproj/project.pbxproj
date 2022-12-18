@@ -19,6 +19,10 @@
 		BA782BF7293EEDEF009C80D0 /* CreateShortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BF6293EEDEF009C80D0 /* CreateShortView.swift */; };
 		BA782BF9293EEFE0009C80D0 /* MultiLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BF8293EEFE0009C80D0 /* MultiLineTextField.swift */; };
 		BA782BFB293F943A009C80D0 /* ShortCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BFA293F943A009C80D0 /* ShortCellView.swift */; };
+		BA782BFD2940F992009C80D0 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BFC2940F992009C80D0 /* SearchCell.swift */; };
+		BA782BFF2942458D009C80D0 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BFE2942458D009C80D0 /* SearchBar.swift */; };
+		BA782C0129424D82009C80D0 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782C0029424D82009C80D0 /* UserCell.swift */; };
+		BA782C032942BE6D009C80D0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782C022942BE6D009C80D0 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,10 @@
 		BA782BF6293EEDEF009C80D0 /* CreateShortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateShortView.swift; sourceTree = "<group>"; };
 		BA782BF8293EEFE0009C80D0 /* MultiLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLineTextField.swift; sourceTree = "<group>"; };
 		BA782BFA293F943A009C80D0 /* ShortCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortCellView.swift; sourceTree = "<group>"; };
+		BA782BFC2940F992009C80D0 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		BA782BFE2942458D009C80D0 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		BA782C0029424D82009C80D0 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		BA782C022942BE6D009C80D0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +129,7 @@
 		BA782BE1293E507E009C80D0 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BA782C022942BE6D009C80D0 /* Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -142,6 +151,7 @@
 		BA782BE4293E512A009C80D0 /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				BA782BFE2942458D009C80D0 /* SearchBar.swift */,
 				BA782BF8293EEFE0009C80D0 /* MultiLineTextField.swift */,
 			);
 			path = Items;
@@ -182,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				BA782BF0293EE36E009C80D0 /* Search.swift */,
+				BA782BFC2940F992009C80D0 /* SearchCell.swift */,
+				BA782C0029424D82009C80D0 /* UserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -274,15 +286,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA782BD3293E4F88009C80D0 /* ContentView.swift in Sources */,
+				BA782C0129424D82009C80D0 /* UserCell.swift in Sources */,
+				BA782BFD2940F992009C80D0 /* SearchCell.swift in Sources */,
 				BA782BEF293EE35D009C80D0 /* Feed.swift in Sources */,
 				BA782BF1293EE36E009C80D0 /* Search.swift in Sources */,
 				BA782BF5293EE392009C80D0 /* Messages.swift in Sources */,
+				BA782BFF2942458D009C80D0 /* SearchBar.swift in Sources */,
 				BA782BF9293EEFE0009C80D0 /* MultiLineTextField.swift in Sources */,
 				BA782BFB293F943A009C80D0 /* ShortCellView.swift in Sources */,
 				BA782BED293E5253009C80D0 /* Home.swift in Sources */,
 				BA782BF3293EE384009C80D0 /* Notificaations.swift in Sources */,
 				BA782BD1293E4F88009C80D0 /* shortApp.swift in Sources */,
 				BA782BF7293EEDEF009C80D0 /* CreateShortView.swift in Sources */,
+				BA782C032942BE6D009C80D0 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
